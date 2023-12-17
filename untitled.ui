@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>easy.editor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #442ebf;
+color: black;
+font size: 20px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="folder_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Відкрити папку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#fa0202;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Зберегти</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="right_btn">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>0</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Повернути вправо</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="left_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Повернути вліво</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="edit_btn">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>0</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Редагувати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BW_btn">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Чорно-білий</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>621</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border: 3px solid black;
+border-radius: 12px;
+</string>
+    </property>
+    <property name="text">
+     <string>Зображення</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>0</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Відзеркалення</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mirror_btn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>0</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Відзеркалення</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="image_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>131</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border: 3px solid black;
+border-radius: 12px;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_btn">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#2ebf55;
+border:3px solid black;
+border-radius: 12px;</string>
+    </property>
+    <property name="text">
+     <string>Крок назад</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
